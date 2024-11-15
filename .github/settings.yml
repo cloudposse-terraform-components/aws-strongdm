@@ -2,6 +2,6 @@
 _extends: .github
 repository:
   name: aws-strongdm
-  description: This component provisions [strongDM](https://www
+  description: This component provisions strongDM gateway, relay and roles
   homepage: https://cloudposse.com/accelerate
   topics: terraform, terraform-component
