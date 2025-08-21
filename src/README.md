@@ -8,7 +8,6 @@ tags:
 # Component: `strongdm`
 
 This component provisions [strongDM](https://www.strongdm.com/) gateway, relay and roles
-
 ## Usage
 
 **Stack Level**: Regional
@@ -24,7 +23,10 @@ components:
 ```
 
 <!-- prettier-ignore-start -->
-<!-- BEGINNING OF PRE-COMMIT-TERRAFORM DOCS HOOK -->
+<!-- prettier-ignore-end -->
+
+
+<!-- markdownlint-disable -->
 ## Requirements
 
 | Name | Version |
@@ -103,12 +105,19 @@ components:
 ## Outputs
 
 No outputs.
-<!-- END OF PRE-COMMIT-TERRAFORM DOCS HOOK -->
-<!-- prettier-ignore-end -->
+<!-- markdownlint-restore -->
+
+
 
 ## References
 
-- https://github.com/spotinst/spotinst-kubernetes-helm-charts
-- https://docs.spot.io/ocean/tutorials/spot-kubernetes-controller/
+
+- [https://github.com/spotinst/spotinst-kubernetes-helm-charts](https://github.com/spotinst/spotinst-kubernetes-helm-charts) - 
+
+- [https://docs.spot.io/ocean/tutorials/spot-kubernetes-controller/](https://docs.spot.io/ocean/tutorials/spot-kubernetes-controller/) - 
+
+
+
 
 [<img src="https://cloudposse.com/logo-300x69.svg" height="32" align="right"/>](https://cpco.io/homepage?utm_source=github&utm_medium=readme&utm_campaign=cloudposse-terraform-components/aws-strongdm&utm_content=)
+
