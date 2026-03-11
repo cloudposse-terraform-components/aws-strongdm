@@ -31,12 +31,6 @@ variable "install_relay" {
   description = "Set `true` to install a pair of relays"
 }
 
-variable "create_roles" {
-  type        = bool
-  default     = false
-  description = "Set `true` to create roles (should only be set in one account)"
-}
-
 variable "register_nodes" {
   type        = bool
   default     = true

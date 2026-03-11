@@ -1,6 +1,5 @@
 locals {
   enabled         = module.this.enabled
-  create_roles    = local.enabled && var.create_roles
   install_gateway = local.enabled && var.install_gateway
   install_relay   = local.enabled && var.install_relay
   register_nodes  = local.enabled && var.register_nodes
